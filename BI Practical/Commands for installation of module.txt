@@ -1,0 +1,8 @@
+First go to Python main File go to Scripts Click on the taskbar(ctrl+A) remove it and type cmd. 
+
+1.pip install pandas
+2.pip install matplotlib (If module error shown)
+3.pip install scikit-learn(for skylearn module error)
+4.pip install seaborn(for seaborn module error)
+
+
