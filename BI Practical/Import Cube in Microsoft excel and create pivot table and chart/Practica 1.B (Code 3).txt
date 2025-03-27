@@ -1,0 +1,29 @@
+create table DimMfgProduct(
+ProductID int not null primary key,
+Name varchar(50),
+ParentItem int,
+StdCost decimal(12,5),
+color varchar(10)
+)
+
+create table DimSalesProduct(
+ProductID int not null primary key,
+Name varchar(50),
+ListPrice decimal(12,2),
+Category varchar(10)
+)
+
+create table FactProductSales(
+ProductID int not null primary key,
+SalesQty int
+)
+
+create Table DimProduct(
+ProductID int not null primary key,
+Name varchar(50),
+ParentItem int,
+StdCost decimal(12,5),
+ListPrice decimal(12,2),
+color varchar(10),
+Category varchar(10)
+)

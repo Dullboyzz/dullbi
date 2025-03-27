@@ -6,3 +6,5 @@ First go to Python main File go to Scripts Click on the taskbar(ctrl+A) remove i
 4.pip install seaborn(for seaborn module error)
 
 
+https://services.odata.org/V3/Northwind/Northwind.svc/
+
