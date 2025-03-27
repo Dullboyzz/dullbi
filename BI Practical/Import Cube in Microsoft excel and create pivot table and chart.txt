@@ -1,0 +1,65 @@
+Practical 1(BI)
+
+Step 1:- Open SSMS(You See SQL Server Popup "Copy Server name" and check "Trust Server Certification"
+Step 2:- Click on "Connect"
+Step 3:- New Query (On Top of Object Explorer) Click on it. After Click on it you see blank Page.
+Step 4:- Run the Code on it which is Give Below.
+
+Step 5:- Create Databases.
+		CREATE DATABASE StudentDB;
+		GO
+
+Step 6:- Select Databases.
+		USE StudentDB;
+		GO
+
+Step 7:- Create Table.
+		CREATE TABLE Students (
+   		 StudentID INT IDENTITY(1,1) PRIMARY KEY,
+    		FirstName NVARCHAR(50),
+    		LastName NVARCHAR(50),
+    		Age INT,
+    		Gender NVARCHAR(10),
+    		Course NVARCHAR(100),
+   		 Marks INT,
+    		AdmissionDate DATE
+		);
+		GO
+
+
+Step 8:- Insert Data into Employees.
+		INSERT INTO Students (FirstName, LastName, Age, Gender, Course, Marks, AdmissionDate)
+		VALUES 
+		('Amit', 'Sharma', 20, 'Male', 'Computer Science', 85, '2023-06-15'),
+		('Pooja', 'Gupta', 22, 'Female', 'Data Science', 90, '2022-07-10'),
+		('Rohan', 'Verma', 21, 'Male', 'Mathematics', 75, '2023-01-25'),
+		('Neha', 'Singh', 23, 'Female', 'Physics', 88, '2021-08-30');
+		GO
+
+
+Step 9:- Check Table(Optional)
+		SELECT * FROM Students;
+		GO
+
+
+Step 10:- IF you want to see your databases so you go object Explore in Object Explore You see Databases Click on	 	it and find your databases
+
+Step 11:- Open Microsoft Excel
+		Go to Data Tab ----> Get Data ----> From SQL Server Databases
+		Enter Server Name
+		Click Ok and wait 
+		You See List of Databases Click on Your Databases Name and Load Data.
+
+Step 12:- After Load Data 
+		Select Entire Table
+		Go to Insert Tab and Select Pivot Table
+		Choose New Worksheet	
+		After apply pivot table you will se Pivot table List on Right Side
+		Drag and Drop data According to Question 
+		Pivot Table Ready 
+
+Step 13:- After Apply Pivot table 
+		Select Pivot table and Go to insert tab 
+		Select Pivot Chart 
+		
+
